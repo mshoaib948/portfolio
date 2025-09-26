@@ -1,0 +1,475 @@
+/*
+CSS for file(order detail-form):- order.html
+*/
+.order-section {
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.order-title, .admin-title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.note {
+  font-size: 0.9em;
+  color: #777;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-fieldset {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-legend {
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.form-group {
+  margin-bottom: 12px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.required {
+  color: red;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
+
+.btn-submit {
+  background: #28a745;
+}
+
+.btn-submit:hover {
+  background: #1e7e34;
+}
+
+.btn-view {
+  background: #17a2b8;
+}
+
+.btn-view:hover {
+  background: #117a8b;
+}
+
+.logout-text {
+  font-size: 16px;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+
+.logout-link {
+  color: red;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.logout-link:hover {
+  color: darkred;
+  text-decoration: underline;
+}
+
+
+/* CSS for file(order-detail show to user/customers):- insert.php */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    padding: 20px;
+}
+
+.success-box {
+    background: #d4edda;
+    color: #155724;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #c3e6cb;
+    border-radius: 6px;
+}
+
+.error-box {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #f5c6cb;
+    border-radius: 6px;
+}
+
+.order-details {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.order-heading {
+    color: #28a745;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #28a745;
+    padding-bottom: 8px;
+}
+
+.label {
+    font-weight: bold;
+    color: #333;
+}
+
+
+/* CSS styling for  file(Viewing table show database to cilent):- view.php  */
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    padding: 20px;
+}
+
+.order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.order-table th, .order-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.order-table th {
+    background-color: #28a745;
+    color: #fff;
+    font-weight: bold;
+}
+
+.order-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.order-table tr:hover {
+    background-color: #e6ffe6;
+}
+
+.btn-update, .btn-delete {
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.btn-update {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-update:hover {
+    background-color: #0056b3;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-delete:hover {
+    background-color: #a71d2a;
+}
+
+.error-box {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 12px;
+    border: 1px solid #f5c6cb;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.info-box {
+    background: #d1ecf1;
+    color: #0c5460;
+    padding: 12px;
+    border: 1px solid #bee5eb;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+/* CSS for file(Upadate table-data for cilent):-  update.php */
+.update-form {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.12);
+  font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+.form-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.label-cell {
+  padding: 12px;
+  font-weight: 600;
+  text-align: right;
+  width: 35%;
+  color: #222;
+}
+
+.value-cell,
+.form-table td {
+  padding: 12px;
+}
+
+.input-field {
+  width: 95%;
+  padding: 10px 12px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+  font-size: 15px;
+  transition: all 0.3s ease;
+  background-color: #fefefe;
+}
+
+.input-field:focus {
+  border-color: #28a745;
+  background-color: #f9fff9;
+  box-shadow: 0 0 6px rgba(40,167,69,0.4);
+  outline: none;
+}
+
+.submit-cell {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.submit-btn {
+  background: #007bff;  /* Blue */
+  color: #fff;
+  font-size: 16px;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.submit-btn:hover {
+  background: #0056b3; /* Darker blue on hover */
+  transform: scale(1.05);
+}
+
+/* CSS for file(delete table-data for cilent):-  delete.php */
+.delete-form {
+  margin: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  width: fit-content;
+  background: #f9f9f9;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.delete-table td {
+  padding: 8px 12px;
+}
+
+.delete-btn {
+  background-color: red;   /* normal red */
+  color: #fff;
+  border: none;
+  padding: 10px 18px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background-color: #b30000; /* slightly darker red on hover */
+}
+
+/* css styling for signup.php */
+
+.signup-box {
+  width: 320px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.signup-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.signup-field {
+  margin-bottom: 15px;
+}
+
+.signup-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.signup-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.signup-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.signup-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.signup-btn:hover {
+  background-color: #218838;
+}
+
+.signup-login-text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.signup-login-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.signup-login-link:hover {
+  text-decoration: underline;
+}
+
+/* css styling for the lonin.php */
+
+.login-box {
+  width: 320px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  font-family: Arial, sans-serif;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-field {
+  margin-bottom: 15px;
+}
+
+.login-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #555;
+}
+
+.login-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.login-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+.login-info-text {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #444;
+}
