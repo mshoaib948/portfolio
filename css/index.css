@@ -1,0 +1,78 @@
+/* General Body Styling */
+body.main-body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 60px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+/* Header */
+.page-header {
+  margin-bottom: 20px;
+}
+
+.main-heading {
+  font-size: 28px;
+  color: #2d3436;
+  margin: 0;
+}
+
+/* User Info Section */
+.user-info {
+  margin-top: 20px;
+}
+
+.greeting-text {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #2d3436;
+}
+
+/* Logout Button */
+.logout-section {
+  margin-top: 10px;
+}
+
+.logout-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #d63031;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.logout-button:hover {
+  background: #c0392b;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: auto;
+  background: #2d3436;
+  color: #dfe6e9;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+.footer-work,
+.footer-dev {
+  margin: 5px 0;
+}

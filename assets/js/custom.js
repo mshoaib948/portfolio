@@ -1,1 +1,0 @@
-document.getElementById('btn_order').style.visibility = 'hidden';
